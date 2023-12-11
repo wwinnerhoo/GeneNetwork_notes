@@ -20,5 +20,5 @@ Useful functions involved in API will be introduced here for beginners.
 
 The website [https://bioart.io/](https://bioart.io/) is a user-friendly interface for uploading personal data. The genotype data should be uploaded with the "Average" option, while phenotype data should be uploaded with the "Standard Error" option. Using the mentioned C.elegans data as an example,  you will find below errors:
 
-![Uploader_C.elegans](/Users/yuhao/Library/CloudStorage/OneDrive-WageningenUniversity&Research/PhD/PhD_projects/GeneNetwork/GIthub_yuhao/images/Uploader_C.elegans.png)
+![Uploader_C.elegans](images/Uploader_C.elegans.png)
 
