@@ -14,7 +14,43 @@ Useful functions involved in API will be introduced here for beginners.
 
 ## Uploader
 
-[The genotypic (gene expression) and phenotypic (maps) data of C. elegans](http://www.genome.org/cgi/doi/10.1101/gr.102160.109) were applied to test the uploader.  A short description of the genotype and phenotype data is: The recombinant inbred lines of *C. elegans* were driven by the wildtypes N2 and CB4856. The phenotype is about the lifespan per recombinant inbred line using the *E.coli (OP50)* as a food source.  The dataset is stored under the parallel folder namely "C.elegans_data", you can also download them by clicking the buttons "Markers" and "Expression data" on the website "https://www.bioinformatics.nl/EleQTL/?mode=correlation".
+[The genotypic (gene expression) and phenotypic (maps) data of C. elegans](http://www.genome.org/cgi/doi/10.1101/gr.102160.109) were applied to test the uploader.  A short description of the genotype and phenotype data is: The recombinant inbred lines of *C. elegans* were driven by the wildtypes N2 and CB4856. The phenotype is about the lifespan per recombinant inbred line using the *E.coli (OP50)* as a food source.  Part of the phenotype and genotype data are indicated below:
+
+### Phenotype
+
+- Columns like "WN001" are individual worms per recombinant inbred line. 
+- Rows are the phenotypic traits, i.e. the calculated lifespan per worm. 
+
+```shell
+											WN001			WN002				WN003				WN008			WN009		
+lifespan/mean/days		14.30667	14.23288		15.46154		13.375		13.17143
+lifespan/TD50/days		12.86			12.8				16.15				13.11			11.25
+```
+
+### Genotype
+
+- Rows are the bin markers on the genome. 
+
+```shell
+					WN001			WN002			WN003			WN008		WN009		
+binI10000		1					1					1					1				1
+binI20000		1					1					1					1				1
+binI30000		1					1					1					1				1
+```
+
+
+
+
+
+ The dataset is stored under the parallel folder namely "C.elegans_data". Alternatively, you can also download them by clicking the buttons "Markers" and "Expression data" on the website "https://www.bioinformatics.nl/EleQTL/?mode=correlation". 
+
+
+
+
+
+
+
+### 
 
 
 
